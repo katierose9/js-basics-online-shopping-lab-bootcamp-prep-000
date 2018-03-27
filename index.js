@@ -17,7 +17,7 @@ function addToCart(item) {
 
 function viewCart() {
   var cartDescription = 'In your cart, you have '
-  
+
   for (var x=1; x<getCart.length -1; x++)
 
   if ( getCart().length >= 1 ) {
@@ -26,13 +26,13 @@ function viewCart() {
   if ( getCart().length >= 2 ) {
     return `cartDescription + ${getCart()[x].itemName} at $${getCart()[x].itemPrice}`
   }
-  
+
   if getCart().length == 0
   return "Your shopping cart is empty." // write your code here
 }
 
 function total() {
-  
+
   // write your code here
 }
 
