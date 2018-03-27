@@ -19,17 +19,17 @@ function addToCart(myItem) {
 function viewCart() {
   var cartDescription = 'In your cart, you have '
 
-  for (var x=1; x<getCart.length -1; x++)
+  for (var x=1; x<getCart.length -1; x++);
 
   if ( getCart().length >= 1 ) {
-    return `cartDescription + ${getCart()[0].itemName} at $${getCart()[0].itemPrice}`
+    return `cartDescription + ${getCart()[0].itemName} at $${getCart()[0].itemPrice}`;
   }
   if ( getCart().length >= 2 ) {
-    return `cartDescription + ${getCart()[x].itemName} at $${getCart()[x].itemPrice}`
+    return `cartDescription + ${getCart()[x].itemName} at $${getCart()[x].itemPrice}`;
   }
 
   if ( getCart().length == 0 ) {
-  return "Your shopping cart is empty."
+  return "Your shopping cart is empty.";
   }// write your code here
 }
 
