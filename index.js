@@ -27,8 +27,9 @@ function viewCart() {
     return `cartDescription + ${getCart()[x].itemName} at $${getCart()[x].itemPrice}`
   }
 
-  if getCart().length == 0
-  return "Your shopping cart is empty." // write your code here
+  if ( getCart().length == 0 ) {
+  return "Your shopping cart is empty."
+  }// write your code here
 }
 
 function total() {
